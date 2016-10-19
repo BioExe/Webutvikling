@@ -1,0 +1,58 @@
+<!doctype HTML>
+
+<head>
+    <title>Oppgave 4</title>
+    <meta charset="utf-8" />
+    <style>
+        .simpel-box {
+            width: 750px;
+            margin: 20px;
+            border: 5px solid green;
+            background-color: lightgreen;
+        }
+
+        .border-dashed {
+            border: 5px dashed red;
+            background-color: orange;
+        }
+
+        .border-solid {
+            border: 5px solid blue;
+            margin: 0px;
+        }
+
+        .border-double {
+            border: 5px double yellow;
+            margin: 20px;
+            width: 100px;
+            padding: 10px;
+            background-color: lightyellow;
+        }
+
+        .fixed {
+            position: fixed;
+            bottom: 0;
+            right: 0;
+            width: 200px;
+            background-color: lightblue;
+        }
+
+        .absolute {
+            position: absolute;
+        }
+
+        .relative {
+            position: relative;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="simpel-box relative">Bredden på denne boksen er satt til å være 750px.</div>
+    <div class="border-dashed relative">Position: relative; gjør at boksen flytter seg med størrelsen på nettleseren, og den brekker automatisk om man gjør nettleseren liten nok</div>
+    <div class="border-solid fixed">Klassen "position: fixed;" gjør at denne boksen fester seg til bunnen av siden, uansett hvor langt ned man scroller.</div>
+    <div class="border-double">Det finnes mange forskjellige border-styles.</div>
+    <div class="simpel-box">Box modellen er enkelt forklart en boks som former seg rundt et HTML element.
+      Den består av margin, som er utenfor selve boksen, border, som er den synlige "streken" man ser rundt,
+      padding, som er avstanden fra selve innholdet og contentet, som er innholdet.</div>
+</body>
